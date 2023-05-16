@@ -1,0 +1,104 @@
+.corpo {
+    background-color: white;
+    padding-top: 20px;
+}
+.container {
+    display: flex;
+    margin-left: 20px;
+}
+header {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20pt;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+.imagem img {
+    width: 500px;
+    max-width: 70%;
+    height: auto;
+}
+body h2,h3,p {
+    text-indent: 20px;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgb(64, 67, 121);
+    margin: none;
+    padding-left: 12vw;
+    padding-right: 10vw;
+    justify-content: left;
+    word-wrap: break-word;
+}
+.red {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+}
+.blue {
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+}
+.yellow {
+    background-color: yellow;
+    width: 25px;
+    height: 25px;
+}
+.green {
+    background-color: rgb(0, 182, 0);
+    width: 25px;
+    height: 25px;
+}
+.purple {
+    background-color: purple;
+    width: 25px;
+    height: 25px;
+}
+.orange {
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+}
+.red-orange {
+    background-color: orangered;
+    width: 25px;
+    height: 25px;
+}
+.red-purple {
+    background-color: rgb(181, 50, 172);
+    width: 25px;
+    height: 25px;
+}
+.blue-purple {
+    background-color: blueviolet;
+    width: 25px;
+    height: 25px;
+}
+.blue-green {
+    background-color: rgb(4,157,193);
+    width: 25px;
+    height: 25px;
+}
+.yellow-green {
+    background-color: yellowgreen;
+    width: 25px;
+    height: 25px;
+}
+.yellow-orange {
+    background-color: rgb(205, 126, 0);
+    width: 25px;
+    height: 25px;
+}
+.gradient-orange {
+    margin-left: 20px;
+    width: 100px;
+    height: 25px;
+    background-image: linear-gradient(to right, hsl(37, 100%, 40%), hsl(37, 25%, 10%));
+}
